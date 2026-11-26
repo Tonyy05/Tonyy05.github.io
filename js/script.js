@@ -10,7 +10,7 @@
   $("#heroSub").textContent = S.heroSubtitle;
   ["#cvBtn", "#cvBtn2"].forEach(s => { const a = $(s); if (a) a.href = S.cvPath; });
   const mail = "mailto:" + S.email, tel = "tel:" + S.phone.replace(/\s/g, "");
-  [["#cEmail", mail, S.email], ["#aEmail", mail, S.email], ["#cPhone", tel, S.phone], ["#aPhone", tel, S.phone]].forEach(([s, h, t]) => { const a = $(s); a.href = h; a.textContent = t; });
+ [["#cEmail", mail, S.email], ["#aEmail", mail, S.email], ["#cPhone", tel, S.phone]].forEach(([s, h, t]) => { const a = $(s); if (a) { a.href = h; a.textContent = t; } });
   $("#fMail").href = mail;
   $$("[data-link]").forEach(a => { const u = S[a.dataset.link + "Url"]; if (u) a.href = u; else (a.closest(".pills li, .coords li") || a).hidden = true; });
   // si le CV est introuvable, on masque les boutons plutôt que de laisser un lien cassé
