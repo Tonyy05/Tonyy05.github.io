@@ -8,7 +8,7 @@ window.SITE = {
   phone: "06 15 45 36 34",
   linkedinUrl: "https://www.linkedin.com/in/tonyolv/",
   githubUrl: "https://github.com/Tonyy05",
-  cvPath: "assets/documents/CV-Tony-Oliveira.pdf",
+  cvPath: "assets/documents/CV_Tony.pdf",
   /* Formation actuelle (d'après ton CV : L3 MIAGE, Université Paris Cité).
      Si tu es bien en Master à Dauphine-PSL, change ces 3 lignes + l'étape "l3" plus bas. */
   currentStudy: "L3 MIAGE – Université Paris Cité",
@@ -145,7 +145,7 @@ window.SITE = {
         schema: { src: "assets/images/ami/base-de-donnees.png", alt: "Modèle conceptuel de données du site", caption: "Modèle conceptuel de données" },
         database: "Une table de contacts indépendante, des adhérents (e-mail unique), un lien adhésion / type d'adhésion avec les tarifs, des utilisateurs avec rôle et mot de passe haché, et les réponses au sondage stockées en JSON.",
         challenges: [
-          ["Prendre en main Figma","Un outil nouveau pour toute l'équipe : Canva, d'abord envisagé, ne convenait pas à une refonte de site.","J'ai dessiné mes idées à la main pour que mes coéquipiers les reproduisent sur Figma, et chacun a pris les tâches où il était le plus à l'aise."],
+          ["Prendre en main Figma","Un outil nouveau pour toute l'équipe : Canva, d'abord envisagé, ne convenait pas à une refonte de site.dig TXT _github-pages-challenge-Tonyy05.tonyvlo.fr +short","J'ai dessiné mes idées à la main pour que mes coéquipiers les reproduisent sur Figma, et chacun a pris les tâches où il était le plus à l'aise."],
           ["PHP et base de données","Le PHP et MariaDB étaient nouveaux pour une partie de l'équipe, la base de données surtout.","Une mise à niveau pendant le projet, et une répartition des missions selon les points forts de chacun."],
           ["Le temps","Les DST, la SAE et les autres matières se sont accumulés, faute d'avoir pris de l'avance dès le départ.","Un gros effort d'organisation et de travail pour rattraper le retard."]
         ],
