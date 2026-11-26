@@ -5,7 +5,7 @@ window.SITE = {
   phone: "06 15 45 36 34",
   linkedinUrl: "https://www.linkedin.com/in/tonyolv/",
   githubUrl: "https://github.com/Tonyy05",
-  cvPath: "assets/documents/CV_Tony_OLIVEIRA.pdf",
+  cvPath: "assets/documents/CV_Tony_Portfolio.pdf",
   currentStudy: "L3 MIAGE – Université Paris Cité",
   heroSubtitle: "Étudiant en Licence 3 MIAGE – Université Paris Cité",
 
