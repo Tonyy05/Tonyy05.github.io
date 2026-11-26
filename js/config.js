@@ -1,7 +1,4 @@
-/* ==========================================================
-   CONFIGURATION — c'est LE fichier à modifier pour personnaliser le site.
-   Laisser une URL vide ("") = aucun lien cliquable n'est affiché.
-   ========================================================== */
+
 window.SITE = {
   name: "Tony Oliveira",
   email: "tm.olv05@gmail.com",
@@ -9,8 +6,6 @@ window.SITE = {
   linkedinUrl: "https://www.linkedin.com/in/tonyolv/",
   githubUrl: "https://github.com/Tonyy05",
   cvPath: "assets/documents/CV_Tony.pdf",
-  /* Formation actuelle (d'après ton CV : L3 MIAGE, Université Paris Cité).
-     Si tu es bien en Master à Dauphine-PSL, change ces 3 lignes + l'étape "l3" plus bas. */
   currentStudy: "L3 MIAGE – Université Paris Cité",
   heroSubtitle: "Étudiant en Licence 3 MIAGE – Université Paris Cité",
 
